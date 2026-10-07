@@ -1,0 +1,7 @@
+# Week 1 dependencies — bounded to avoid surprise breaking changes mid-course.
+# Lower bound: minimum version we rely on. Upper bound: next major (may break).
+openai
+python-dotenv
+fastapi
+uvicorn
+pydantic
