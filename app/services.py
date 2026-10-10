@@ -12,7 +12,7 @@ PROMPTS = {
     "explain": "Explain the following concept in simple terms that anyone can understand.",
 }
 
-
+# Process a task with the given text
 def process_task(task: str, text: str) -> dict:
     if task not in PROMPTS:
         raise ValueError(f"Unknown task: {task}. Available: {list(PROMPTS.keys())}")
